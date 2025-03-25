@@ -1,0 +1,29 @@
+node_modules
+.env
+*.pdf
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# dont upload evaluation stuff
+/evaluation
+evaluation_results.json
+bytecode_size_results.json
+hash_results.json
+validation_gas_results.json
+contract_groups.json
+
+# no macos stuff
+.DS_Store
